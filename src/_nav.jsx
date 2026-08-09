@@ -159,6 +159,11 @@ const _nav = [
       },
       {
         component: CNavItem,
+        name: 'Chip Set',
+        to: '/components/chip-set',
+      },
+      {
+        component: CNavItem,
         name: 'Collapse',
         to: '/components/collapse',
       },
@@ -215,6 +220,11 @@ const _nav = [
         component: CNavItem,
         name: 'Progress',
         to: '/components/progress',
+      },
+      {
+        component: CNavItem,
+        name: 'Search Button',
+        to: '/components/search-button',
       },
       {
         component: CNavItem,
