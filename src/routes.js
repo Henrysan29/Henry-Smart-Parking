@@ -65,6 +65,11 @@ const Brands = React.lazy(() => import('./views/icons/brands/Brands'))
 
 const Widgets = React.lazy(() => import('./views/widgets/Widgets'))
 
+// --- VISTAS DEL PARQUEADERO ---
+const ListaVehiculos = React.lazy(() => import('./views/parqueadero/ListaVehiculos'))
+const ListaPuestos = React.lazy(() => import('./views/parqueadero/ListaPuestos'))
+const ListaHistorial = React.lazy(() => import('./views/parqueadero/ListaHistorial'))
+
 /**
  * Array of route configuration objects
  *
@@ -83,7 +88,7 @@ const Widgets = React.lazy(() => import('./views/widgets/Widgets'))
  * { path: '/components', name: 'Components', element: Cards, exact: true }
  */
 export const routes = [
-  { path: '/', exact: true, name: 'Home' },
+  { path: '/', exact: true, name: 'Inicio' },
   { path: '/dashboard', name: 'Dashboard', element: Dashboard },
   { path: '/components', name: 'Components', element: Accordion, exact: true },
   { path: '/components/accordion', name: 'Accordion', element: Accordion },
@@ -127,6 +132,23 @@ export const routes = [
   { path: '/icons/flags', name: 'Flags', element: Flags },
   { path: '/icons/brands', name: 'Brands', element: Brands },
   { path: '/widgets', name: 'Widgets', element: Widgets },
+
+  // --- RUTAS DEL PARQUEADERO ---
+  { 
+    path: '/parqueadero/vehiculos', 
+    name: 'Vehículos', 
+    element: ListaVehiculos 
+  },
+  { 
+    path: '/parqueadero/puestos', 
+    name: 'Puestos', 
+    element: ListaPuestos 
+  },
+  { 
+    path: '/parqueadero/historial', 
+    name: 'Historial', 
+    element: ListaHistorial 
+  }
 ]
 
 export default routes
