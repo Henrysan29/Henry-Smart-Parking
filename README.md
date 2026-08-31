@@ -11,10 +11,10 @@ Este es el panel de administración (CRUD) para el sistema de Parqueadero Inteli
 * Visualización de vehículos, propietarios, puestos e historial de parqueo.
 * Operaciones CRUD completas (Crear, Leer, Actualizar, Eliminar).
 * Conexión en tiempo real con Supabase.
-* Rutas y vistas protegidas.
 
 ## 📸 Captura del Sistema
-*(La captura de pantalla se agregará aquí desde la web de GitHub)*
+<img width="1365" height="683" alt="Captura de pantalla 2026-08-30 190552" src="https://github.com/user-attachments/assets/83c24fde-14cd-4913-b6f9-69ac38b2366d" />
+
 
 ---
 **Desarrollado para la materia de Aplicaciones Telemáticas Basadas en Web**
